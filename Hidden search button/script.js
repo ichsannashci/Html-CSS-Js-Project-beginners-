@@ -4,4 +4,7 @@ const input = document.getElementsByClassName(".input");
 
 btn.addEventListener("click", () => {
   search.classList.toggle("active");
+  console.log(document.querySelector("div").className);
 });
+
+console.info(document.querySelector("div").className);
